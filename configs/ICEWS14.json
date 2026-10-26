@@ -1,6 +1,6 @@
 {
   "dataset": "ICEWS14",
-  "rank": 6000,
+  "rank": 10000,
   "structure": {
     "max_epochs": 201,
     "valid_freq": 10,
