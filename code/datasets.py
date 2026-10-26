@@ -5,7 +5,7 @@ import pickle
 from pathlib import Path
 import numpy as np
 import torch
-DATA_PATH = Path(os.environ.get('TSMC_DATA_ROOT', Path(__file__).resolve().parents[1] / 'data'))
+DATA_PATH = Path(os.environ.get('DATA_ROOT', Path(__file__).resolve().parents[1] / 'data'))
 
 class TemporalDataset:
 
