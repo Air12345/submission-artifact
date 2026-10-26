@@ -34,12 +34,12 @@
     "cache_batch_size": 64
   },
   "mcc": {
-    "mm_dim": 256,
+    "mm_dim": 2048,
     "mm_hidden": 256,
     "mm_dropout": 0.1,
     "temperature": 0.07,
     "relation_scale": 0.2,
-    "mm_epochs": 16,
+    "mm_epochs": 30,
     "mm_valid_freq": 2,
     "mm_batch_size": 512,
     "mm_eval_batch_size": 512,
@@ -50,7 +50,7 @@
     "pairwise_margin": 0.2,
     "modality_balance": 0.01,
     "grad_clip": 1.0,
-    "mm_select_alpha_grid": "0,0.01,0.02,0.03,0.04,0.06,0.08,0.10,0.15",
-    "fusion_alpha_grid": "0,0.01,0.02,0.03,0.04,0.06,0.08,0.10,0.15"
+    "mm_select_alpha_grid": "0,0.01,0.02,0.04,0.06,0.08,0.10,0.15,0.2",
+    "fusion_alpha_grid": "0,0.01,0.02,0.04,0.06,0.08,0.10,0.15,0.2"
   }
 }
